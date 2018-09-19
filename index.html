@@ -5,62 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The Haukai Restaurant</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="styles/styles.css">
   </head>
- 
+  
   <body>
-
-      <!-- Sidebar -->
-      <nav class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
-            <button class="w3-bar-item w3-button w3-large"
-            onclick="w3_close()">Close &times;</button>
-            <a href="./index.html" class="w3-bar-item w3-button w3-mobile w3-hover-teal">Home</a>
-            <a href="./Reservations.html" class="w3-bar-item w3-button w3-mobile w3-hover-teal">Reservations</a>
-            <a href="./Menu.html" class="w3-bar-item w3-button w3-mobile w3-hover-teal">Menu</a>
-            <a href="./Contact.html" class="w3-bar-item w3-button w3-mobile w3-hover-teal">Contact</a>
-            <a href="./OpeningHours.html" class="w3-bar-item w3-button w3-mobile w3-hover-teal">Opening Hours</a>
-      </nav>
-          
-          <div id="main">
-          
-          <div class="w3-teal">
-            <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
-            <div class="w3-row-padding">
-
-            <div class="w3-threequarter w3-container w3-center w3-mobile">
-              <h1>The Haukai Restaurant</h1>
-            </div>
-            <div class="w3-quarter w3-container w3-center w3-mobile">
-                <img src="images/Logo.jpg" alt="wooles" height="100px" vspace="10" >
-            </div>
-          </div>
-         </div>
-          
-          <div class="w3-container  w3-center w3-mobile">
-            <div class="w3-panel w3-padding-32 w3-padding-large">
-              <p >Haukai Restaurant specialises in Māori kai and is based in the Bay of Islands. It was started 
-                by a couple who are keen on creating a business that would appeal to locals and tourists visiting 
-                the area. They are the only employees at present, but in the future, they hope to take on part-time 
-                staff. The restaurant is only open in the evenings at the moment, from Wednesday to Sunday 
-                inclusive. The dinner menu features Māori and Pākeha kai options and drinks. See Appendix B for 
-                the current restaurant menu.The owners also want customers to experience te ao Māori with the use 
-                of karakia for blessing food and other Māori culture elements in their new web application.</p>
-              </div>
-            </div>
-          </div>
+    
+    <nav width="100%" class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="./index.html">The Haukai Restaurant</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="./index.html">Home</a></li>
+          <li><a href="./Reservations.html">Reservations</a></li>
+          <li><a href="./Menu.html">Menu</a></li>
+          <li><a href="./Contact.html">Contact Us</a></li>
+          <li><a href="./OpeningHours.html">Opening Hours</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <img src="images/Logo.jpg" alt="Haukai Restaurant Logo" width="15%" class="center" >
+    <h1>The Haukai Restaurant</h1>
+    
+    <div class="w3-container  w3-center w3-mobile">
+      <div class="w3-panel w3-padding-32 w3-padding-large">
+        <p >Haukai Restaurant specialises in Māori kai and is based in the Bay of Islands. It was started
+          by a couple who are keen on creating a business that would appeal to locals and tourists visiting
+          the area. They are the only employees at present, but in the future, they hope to take on part-time
+          staff. The restaurant is only open in the evenings at the moment, from Wednesday to Sunday
+          inclusive. The dinner menu features Māori and Pākeha kai options and drinks. See Appendix B for
+          the current restaurant menu.The owners also want customers to experience te ao Māori with the use
+          of karakia for blessing food and other Māori culture elements in their new web application.</p>
+        </div>
+      </div>
       
-            
-      <script>
-            function w3_open() {
-              document.getElementById("main").style.marginLeft = "25%";
-              document.getElementById("mySidebar").style.width = "25%";
-              document.getElementById("mySidebar").style.display = "block";
-              document.getElementById("openNav").style.display = 'none';
-            }
-            function w3_close() {
-              document.getElementById("main").style.marginLeft = "0%";
-              document.getElementById("mySidebar").style.display = "none";
-              document.getElementById("openNav").style.display = "inline-block";
-            }
-            </script>
   </body>
