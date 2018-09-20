@@ -29,7 +29,7 @@ p{
         position:absolute;
     }
     .responsiveCal {
-        position: relative;  height: 0; overflow: hidden;
+        position: relative; height: 0; overflow: hidden;
         }
 
     .responsiveCal iframe {
