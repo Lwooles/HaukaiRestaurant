@@ -9,9 +9,16 @@ h2{
     padding:0px;
     color:#7d6042;
 }
-p{
-    text-align:center;
+
+p.Privacy{
+    padding-left:10%;
+    padding-right: 10%
 }
+ul{
+    padding-left:12%;
+    padding-right: 10%;
+}
+
 img.food{
     margin-left:auto;
     margin-right:auto;
@@ -22,7 +29,7 @@ img.food{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width:25%;
+    max-width:30%;
 }
 .map-responsive{
     overflow:hidden;
