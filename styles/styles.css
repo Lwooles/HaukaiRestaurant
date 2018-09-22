@@ -10,12 +10,16 @@ h2{
     color:#7d6042;
 }
 
+h2.padding{
+    padding-top:50%;
+    text-align: center;
+}
 p.Privacy{
     padding-left:10%;
     padding-right: 10%
 }
 p.padding{
-    padding-top:20%;
+    padding-top:2%;
     text-align: center;
 }
 p.center{
