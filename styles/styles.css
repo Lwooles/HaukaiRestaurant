@@ -23,7 +23,9 @@ p{
 footer{
     padding-left: 5%;
     padding-right:5%;
-    padding-bottom: 2%;font-style: italic;
+    padding-bottom: 2%;
+    font-style: italic;
+    padding-top:2%;
 }
 p.footer{
     font-size:1em;
