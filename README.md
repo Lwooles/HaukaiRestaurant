@@ -1,5 +1,7 @@
 # HaukaiRestaurant
 
+https://lwooles.github.io/HaukaiRestaurant/
+
 1b) I introduced a W3 schools navigation bar to begin with but found that it didnt fit accesibility guidelines. It didnt work with tabbing so i changed to a bootstrap template which satisfied this criteria. 
 
 I used light and dark text colouring to ensure that readability was clear and colours were clearly different to avaoid visibility issues. ARIA labels were used to identify areas with a screenreader. I tested with a screenreader to ensure readability.
